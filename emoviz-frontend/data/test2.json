@@ -1,0 +1,158 @@
+[
+  {
+    "audio": "audio1",
+    "segment": "segment1",
+    "emotion": "anger",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment2",
+    "emotion": "anticipation",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment3",
+    "emotion": "disgust",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment4",
+    "emotion": "fear",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment5",
+    "emotion": "joy",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment6",
+    "emotion": "negative",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment7",
+    "emotion": "positive",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment8",
+    "emotion": "sadness",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment9",
+    "emotion": "surprise",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment10",
+    "emotion": "trust",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment11",
+    "emotion": "anger",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment12",
+    "emotion": "anticipation",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment13",
+    "emotion": "disgust",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment14",
+    "emotion": "fear",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment15",
+    "emotion": "joy",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment16",
+    "emotion": "negative",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment17",
+    "emotion": "positive",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment18",
+    "emotion": "sadness",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment19",
+    "emotion": "surprise",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment20",
+    "emotion": "trust",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment21",
+    "emotion": "anger",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment22",
+    "emotion": "anticipation",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment23",
+    "emotion": "disgust",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment24",
+    "emotion": "fear",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment25",
+    "emotion": "joy",
+    "value": 1
+  },
+  {
+    "audio": "audio1",
+    "segment": "segment26",
+    "emotion": "negative",
+    "value": 1
+  }
+]

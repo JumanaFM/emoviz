@@ -1,0 +1,27 @@
+[  fearful	neutral	 happy	 angry	 angry	 surprised	 happy	 neutral	 surprised	 sad	 calm
+   happy	surprised	 fearful	 fearful	 happy	 surprised	 sad	 calm	 calm	 disgust	 neutral
+   calm	calm	 disgust	 happy	 surprised	 angry	 fearful	 happy	 happy	 fearful	 sad
+   fearful	fearful	 angry	 calm	 disgust	 angry	 surprised	 happy	 surprised	 sad	 disgust
+   angry	angry	 fearful	 sad	 disgust	 calm	 fearful	 neutral	 angry	 fearful	 angry
+   angry	fearful	 surprised	 happy	 happy	 surprised	 neutral	 angry	 angry	 surprised	 angry
+   fearful	happy	 neutral 	 disgust	 angry	 sad	 fearful	 neutral	 angry	 disgust	 disgust
+   neutral	angry	 happy	 disgust	 disgust	 calm	 sad	 calm	 disgust	 fearful	 neutral
+   happy	disgust	 neutral	 fearful	 surprised	 surprised	 sad	 fearful	 angry	 neutral	 surprised
+   sad	neutral	 calm 	 calm	 fearful	 disgust	 neutral	 disgust	 calm	 sad	 neutral
+   calm	neutral	 fearful	 neutral	 calm	 surprised	 disgust	 surprised	 sad	 angry	 angry
+   fearful	surprised	 fearful	 angry	 fearful	 happy	 happy	 angry	 sad	 sad	 calm
+   disgust	fearful	 surprised	 happy	 neutral	 fearful	 calm	 surprised	 surprised	 neutral 	 angry
+   happy	calm	 angry	 surprised	 sad	 fearful	 happy	 angry	 angry	 calm	 neutral
+   fearful	sad	 neutral	 surprised	 fearful	 neutral	 sad	 angry	 fearful	 disgust	 disgust
+   calm	neutral	 surprised	 happy	 surprised	 sad	 angry	 happy	 fearful	 neutral	 disgust
+   disgust	happy	 disgust	 disgust	 disgust	 happy	 angry	 sad	 happy	 disgust	 surprised
+   calm	happy	 happy	 surprised	 sad 	 fearful	 sad 	 sad	 angry	 neutral	 surprised
+   angry	happy	 angry	 angry	 disgust	 happy	 sad	 neutral	 angry	 fearful	 angry
+   happy	calm	 surprised	 surprised	 sad	 surprised	 angry	 surprised	 calm	 angry	 happy
+   disgust	happy	 fearful	 surprised	 surprised	 disgust	 fearful	 neutral	 angry	 calm	 neutral
+   angry	neutral	 disgust	 angry	 surprised	 sad	 surprised	 sad	 fearful	 angry	 angry
+   sad	surprised	 sad	 fearful	 disgust	 sad	 fearful	 disgust	 sad	 neutral	 angry
+   surprised	neutral	 sad	 angry	 sad	 fearful	 sad	 sad	 disgust	 fearful	 disgust
+   happy	surprised	 angry	 neutral	 sad	 disgust	 disgust	 angry	 fearful	 angry	 neutral
+   sad	sad	 happy	 sad	 calm	 angry	 calm	 disgust	 happy	 neutral	 fearful
+   surprised	neutral	 fearful	 fearful	 disgust	 angry	 ]

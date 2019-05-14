@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EmoViz</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="../../rsc/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../rsc/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../rsc/plugins/icomoon/style.css" rel="stylesheet">
+    <link href="../../rsc/plugins/uniform/css/default.css" rel="stylesheet"/>
+    <link href="../../rsc/plugins/switchery/switchery.min.css" rel="stylesheet"/>
+    <link href="../../rsc/plugins/x-editable/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet">
+    <link href="../../rsc/plugins/x-editable/inputs-ext/typeaheadjs/lib/typeahead.js-bootstrap.css" rel="stylesheet">
+    <link href="../../rsc/plugins/x-editable/inputs-ext/address/address.css" rel="stylesheet">
+    <link href="../../rsc/css/space.min.css" rel="stylesheet">
+    <link href="../../rsc/css/custom.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style media="screen">
+        #home-list {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+
+        <div class="page-sidebar">
+            <a class="logo-box" href="/#">
+                <span>EmoViz</span>
+                <i class="icon-radio_button_unchecked" id="fixed-sidebar-toggle-button"></i>
+                <i class="icon-close" id="sidebar-toggle-button-close"></i>
+            </a>
+            <div class="page-sidebar-inner">
+                <div class="page-sidebar-menu">
+                    <ul class="accordion-menu">
+                        <li>
+                            <a href="/#">
+                                <i class="menu-icon icon-home4"></i><span>Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="side-list-a" href="javascript:void(0);">
+                                <i class="menu-icon icon-clock"></i><span>Sessions</span><i class="accordion-icon fa fa-angle-left"></i>
+                            </a>
+                            <ul id="side-list" class="sub-menu">
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0);">
+                                <i class="menu-icon fa fa-plus"></i><span><button type="button" class="menu-icon btn btn-default do-new-session" data-toggle="modal" data-target="#myModal">New session</button></span>
+                            </a>
+                        </li>
+
+                        <li class="menu-divider"></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+        <div class="page-content">
+
+            <!-- Page Header -->
+            <div class="page-header">
+                <div class="search-form">
+                    <form action="#" method="GET">
+                        <div class="input-group">
+                            <input type="text" name="search" class="form-control search-input" placeholder="Type something...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" id="close-search" type="button"><i class="icon-close"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <div class="logo-sm">
+                                <a href="javascript:void(0)" id="sidebar-toggle-button"><i class="fa fa-bars"></i></a>
+                                <a class="logo-box" href="/#"><span> EmoViz </span></a>
+                            </div>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <i class="fa fa-angle-down"></i>
+                            </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="javascript:void(0)" id="collapsed-sidebar-toggle-button"><i class="fa fa-bars"></i></a></li>
+                                <li><a href="javascript:void(0)" id="toggle-fullscreen"><i class="fa fa-expand"></i></a></li>
+                                <li><a href="javascript:void(0)" id="search-button"><i class="fa fa-search"></i></a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </div><!-- /Page Header -->
+
+            <!-- Page Inner -->
+            <div id="loading-view" class="page-inner">
+                <div class="page-title">
+                    <h3 class="breadcrumb-header">Loading...</h3>
+                </div>
+
+                <div id="main-wrapper">
+
+                </div><!-- Main Wrapper -->
+            </div>
+
+            <div id="home-view" class="page-inner" style="display: none;">
+                <div class="page-title">
+                    <h3 class="breadcrumb-header">Dashboard</h3>
+                </div>
+
+                <div id="main-wrapper">
+                    <h4>All sessions</h4>
+                    <ul id="home-list">
+                    </ul>
+                </div><!-- Main Wrapper -->
+            </div>
+
+            <div id="session-view" class="page-inner" style="display: none;">
+                <div class="page-title">
+                    <h3 class="breadcrumb-header">Session (<span id="session-title"></span>)</h3>
+                </div>
+                <div id="main-wrapper">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="panel panel-white">
+                                <!-- <div class="panel-heading clearfix">
+                                    <h4 class="panel-title">Status</h4>
+                                </div> -->
+                                <div class=" panel-body">
+                                    <span class="glyphicon glyphicon-hourglass" aria-hidden="true" style="font-size: 2em;"></span>
+                                    <canvas id="viz"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="panel panel-white">
+                                <!-- <div class="panel-heading clearfix">
+                                    <h4 class="panel-title">Status</h4>
+                                </div> -->
+                                <div class="panel-body ">
+                                    <span class="glyphicon glyphicon-hourglass" aria-hidden="true" style="font-size: 2em;"></span>
+                                    <canvas id="viz2"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="panel panel-white">
+                                <!-- <div class="panel-heading clearfix">
+                                    <h4 class="panel-title">Audio</h4>
+                                </div> -->
+                                <div class="panel-body">
+                                    <div id="waveform-container">
+                                    </div>
+                                    <div class="audio-player">
+                                        <audio id="audio" controls=controls>
+                                            <source  type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                        </audio>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Row -->
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="panel panel-white">
+                                <div class="panel-heading clearfix">
+                                    <h4 class="panel-title">Transcription</h4>
+                                </div>
+                                <div class="panel-body">
+                                    Filters:
+                                    <div id="transtext-filter" class="btn-group btn-group-sm" role="group" aria-label="filter-group">
+                                        <span class="glyphicon glyphicon-hourglass" aria-hidden="true" style="font-size: 2em;"></span>
+                                    </div>
+                                    <div href="#" id="transtext" data-type="textarea" data-pk="1" style="margin-top: 20px;"> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Row -->
+                </div><!-- Main Wrapper -->
+            </div>
+
+            <div class="page-footer">
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Upload Audio</h4>
+                </div>
+                <div class="modal-body">
+                    <input type="file" id="myFile">
+                    <div class="modal-footer">
+                        <button id="new-session-button" type="button" class="btn btn-info" data-loading-text="Uploading..." autocomplete="off">Upload</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../rsc/plugins/jquery/jquery-3.1.0.min.js"></script>
+    <script src="../../rsc/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../rsc/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="../../rsc/plugins/uniform/js/jquery.uniform.standalone.js"></script>
+    <script src="../../rsc/plugins/switchery/switchery.min.js"></script>
+    <script src="../../rsc/plugins/jquery-mockjax-master/jquery.mockjax.js"></script>
+    <script src="../../rsc/plugins/moment/moment.js"></script>
+    <script src="../../rsc/plugins/x-editable/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+    <script src="../../rsc/plugins/x-editable/inputs-ext/typeaheadjs/lib/typeahead.js"></script>
+    <script src="../../rsc/plugins/x-editable/inputs-ext/typeaheadjs/typeaheadjs.js"></script>
+    <script src="../../rsc/plugins/x-editable/inputs-ext/address/address.js"></script>
+    <script src="../../rsc/js/space.min.js"></script>
+    <script src="../../rsc/js/form-x-editable.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/peaks.js/0.9.14/peaks.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../../src/app.js"></script>
+    <script src="../../src/waveformviz.js"></script>
+</body>
+</html>

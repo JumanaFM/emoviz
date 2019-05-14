@@ -1,0 +1,27 @@
+{
+  "name": "emoviz-background",
+  "version": "1.0.0",
+  "description": "emotions model",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jumanaFM@github.com/JumanaFM/emoviz-background.git"
+  },
+  "author": "Jumana Almahmoud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JumanaFM/emoviz-background/issues"
+  },
+  "homepage": "https://github.com/JumanaFM/emoviz-background#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^2.3.1",
+    "@google-cloud/storage": "^2.5.0",
+    "await-spawn": "^2.1.2",
+    "mongodb": "^3.2.3",
+    "node-uuid": "^1.4.8"
+  }
+}

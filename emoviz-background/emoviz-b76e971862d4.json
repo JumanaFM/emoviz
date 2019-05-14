@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "emoviz",
+  "private_key_id": "b76e971862d4aaa1d650bb8ae5b52a93d5743713",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1FG4bqS33Zx9+\nOjIC3EvkD+J2eV9J3xfub4kH4c9QDgn+pZ8D6pwG88iNfaEDKQRvLq43gSfni1CB\njABBD4oZbxXY0uEQh1kf6YXHasT4e5IopxpPxfLByTbAoIUQKGGHutAWQgB0IyWb\nJRmfvDmqyhdB3RZGPyyq5OnS3VdQ8eRb20L/W349DknlDX4RZOzcetaPB5QaB7Rv\nqqxFmpdK6tnV6L10AT8XMKDi5NxrHnRbX2J07qZrRBYHOo/e0yHCfbLDJwPf935k\n1bw2a4F7I38MVh113z7AMP4tmHUzvKkUxI5mIkEx9oCSCytWqVnqfO1ksAmx/oeq\nR7LGEe6BAgMBAAECggEAA8RyjAHHkoujNJmaW8PgklSgRg29ZUiOc2f/plnU2doI\n7DLe7ZJuf5iH1iXEeU/bp0KF3mLCBUe5O5DBmpjrqx7MChBNHW5rdMYDggQfJ/pO\nLqlXW0yHge+hQ32zdwQYD15cIPJrlv76M9GgSFn+qyZ8OGMUqQ58a+vKT5hKTkVJ\nC+EGXUaDdfg0rWLEIjRwygiWzm8rma7XZKu6S2lKgdYKMkMIF1ZBl/UH5sL4rjEI\neeHWlbdw83EUNoIABlPYO5lfU6dFMq7jM+6VGJUVwN7oHsVX0XjB7sGDWXrUsxhp\nBjRrvj4p64RH2NieLUpiO2uOwlfsg8EoyDXrWOKx6QKBgQD2kE1ibQItX4cVgQ5Y\n/8Vv5sHB1fV8EE5ESH2A3Lr6MChZOlOiiCswC+cdsvzGDeM48w8slDW/nqVUm8c6\npKpHrE7NDtLQ5Qt9AS5SdovU8v7aw/tOYWsWDB6VfCfLZhGLexafKE0IVDc62o1p\nnr38PB5tytoKm9O7o8wF77hYnQKBgQC8Ao1ctpukUweZelmLNiB5lc3zlI6pMqpP\nS0vHl+OqaTs4jFTr6fy/rcNj3xpqclA6lBgsMsPahgUNKVJgVkDHanbR/FBIxKU+\niVaspvZsPCrW2TZeRpG/d0AbVzD7TTmw3shS0DQBohkjJYVDMNID4On275qxgu/W\nACfVPZsONQKBgBd0HohQSja6sYTQI+c/XS6JysB/c7x7aJaCNr39QSPvVMc4DyCU\nx1boqvFeR0EnrQeLx1O8PWie1Kc5sjfX1gK/VzeWQ2Nvhio75IYflKmK+8cfgVYx\nWhhcysP5bWehq+WSrdIx6THzoNVOWMlFOlk19scG1rrPm9JrgErIRMbZAoGBAJ6P\nLHc/jj3kxGj81Z3hdTv1Si8eX750e0vKfcuD3r6uZwKG32vi94UUX8/PrbCOXfk5\nQrWrzp9yHbp+2fljZNiJglIQEAl+xrnaC94qJXMcvyhZIlAaBftK8CbevvGBrKDt\nElc9Pk8OTVLl5uDGwKgCvG7EnlsMyYZatT1S6nztAoGBAPWUPge8DWxZhQ4PszYO\naaR1pls8vV1HE4NuIApYfn6GarGDRece5uFwFc+wgNaqZ2ojig1WNW5iOk2tln1B\nK4WTE9cVo3ItDKtBd0NKHXgmOP9beguHMJoolX4p8hJvjRUSAguEW8bRaE1LoyPS\nMvBjFJSfqAPHJcE6yExq3XP5\n-----END PRIVATE KEY-----\n",
+  "client_email": "stt-145@emoviz.iam.gserviceaccount.com",
+  "client_id": "100721181984968347818",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stt-145%40emoviz.iam.gserviceaccount.com"
+}

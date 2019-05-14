@@ -1,0 +1,116 @@
+/* Write your custom CSS here */
+
+.editableform .form-control {
+    width: 70vw;
+}
+
+.audio-player {
+  width: 100%;
+  padding: 15px 0 0 0;
+}
+
+audio {
+  width: 100%;
+  height: 30px;
+}
+
+audio:focus {
+  outline: none;
+}
+
+.viz-panel {
+    height: 20vh;
+}
+
+.overview-container {
+  height: 50px;
+}
+
+.panel {
+  padding: 15px;
+}
+
+.editable-click, a.editable-click, a.editable-click:hover {
+  border-bottom: none;
+}
+
+.logo-box, .page-sidebar {
+    border-right: 1px solid #00000014;
+    background: #ffffff;
+}
+.accordion-menu .sub-menu {
+    background: #ffffff;
+}
+
+.emo {
+  padding: 0 5px;
+  border-radius: 10px;
+}
+.calm {
+  background: #68edcba8;
+}
+
+.happy {
+  background: #ffd53f;
+}
+
+.sad {
+  background: #12b0ce87;
+}
+
+
+.disgust {
+  background: #58db3075;
+}
+
+.fearful {
+  background: #a576cc9c;
+}
+
+.surprised {
+  background: #f73bf370;
+}
+
+.neutral {
+  background: #6183a094;
+}
+
+.angry {
+  background:#f9484894;
+
+}
+
+
+.logo-box {
+    color: #000000!important;
+}
+
+.btn-default {
+    border-color: #000000;
+    color: #000000;
+}
+
+.btn-default:hover {
+    border-color: #333333;
+    color: #333333;
+}
+
+.btn-default:active {
+    border-color: #333333;
+    color: #333333;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    border-color: #000000!important;
+    background-color: rgba(0,112,224,.08);
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    border-color: #000000!important;
+    background-color: rgba(0,112,224,.08);
+}
+
+.page-sidebar-inner {
+  overflow: hidden !important;
+}
+

@@ -1,0 +1,29 @@
+{
+  "name": "emoviz",
+  "version": "1.0.0",
+  "description": "Emotion speech recognition system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "google": "export GOOGLE_APPLICATION_CREDENTIALS=\"/Users/jumana/Code/emoviz-backend/emoviz-b76e971862d4.json\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JumanaFM/EmoViz.git"
+  },
+  "author": "jumana almahmoud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JumanaFM/EmoViz/issues"
+  },
+  "homepage": "https://github.com/JumanaFM/EmoViz#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^2.3.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "node-uuid": "^1.4.8"
+  }
+}
